@@ -26,6 +26,19 @@ class Currency extends KuCoinApi
     }
 
     /**
+     * Get a v3 list of currency
+     * @return array
+     * @throws \KuCoin\SDK\Exceptions\HttpException
+     * @throws \KuCoin\SDK\Exceptions\BusinessException
+     * @throws \KuCoin\SDK\Exceptions\InvalidApiUriException
+     */
+    public function getV3List()
+    {
+        $response = $this->call(Request::METHOD_GET, '/api/v3/currencies');
+        return $response->getApiData();
+    }
+
+    /**
      * Get the details of a currency
      * @param string $currency
      * @param string|null $chain
