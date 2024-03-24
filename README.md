@@ -23,7 +23,7 @@
 > Install package via [Composer](https://getcomposer.org/).
 
 ```shell
-composer require "kucoin/kucoin-php-sdk:~1.1.0"
+composer require "donyahmd/kucoin-php-sdk:~1.1.0"
 ```
 
 ## Usage
@@ -34,11 +34,6 @@ composer require "kucoin/kucoin-php-sdk:~1.1.0"
 |--------------|-------------------------------------------|
 | *Production* | https://api.kucoin.com                    |
 | ~~*Sandbox*~~    | ~~https://openapi-sandbox.kucoin.com~~ (Deprecated) |
-
-```php
-// Switch to the sandbox environment
-KuCoinApi::setBaseUri('https://openapi-sandbox.kucoin.com');
-```
 
 ### Debug mode & logging
 

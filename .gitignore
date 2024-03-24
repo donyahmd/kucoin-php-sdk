@@ -2,3 +2,4 @@ vendor
 .idea
 *.swap
 composer.lock
+.vscode
