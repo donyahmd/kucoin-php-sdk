@@ -1,5 +1,5 @@
 {
-  "name": "kucoin/kucoin-php-sdk",
+  "name": "donyahmd/kucoin-php-sdk",
   "type": "library",
   "license": "MIT",
   "description": "PHP SDK for KuCoin API",
